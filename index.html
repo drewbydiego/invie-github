@@ -12,11 +12,23 @@
             width: 90%;
             height: 10%;
         }
+        img#responsive{
+                display: none;
+            }
+        @media screen and (min-width: 743px){
+            img#responsive{
+                display: block;
+                background-color: aqua;
+            }
+            body{
+                background-color: aqua;
+            }
+        }
     </style>
     <title>INVIE</title>
 </head>
 <body>
-    <img src="header.jpg">
+    <img src="header2.png" id="responsive">
     <img src="hero.png" alt="">
     <img src="acustica.jpg" alt="">
     <img src="clasica.jpg" alt="">
